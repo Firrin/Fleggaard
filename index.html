@@ -3,8 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Fleggaard trailerudlejning</title>
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
-
+    <link rel="stylesheet" href="css/jquery.datetimepicker.min.css">
     <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
@@ -28,7 +27,7 @@
 <p class="opentrailer">Åben trailer:</p>
 <p class="opentrailer">327 kg</p>
 <p class="opentrailer">500 kg</p>
-<p class="opentrailer">205 x 128 x 0,40</p>
+<p class="opentrailer">205 x 128 x 40</p>
 <p class="opentrailer">xxx</p>
 <p class="opentrailer">250,-</p>
 
@@ -54,7 +53,7 @@
 <h2 class="heading">Dato</h2>
 
 
-<input class="dato" type="text" name="datefilter" value="" />
+<input id="datetime" class="dato" value="">
 
 <div class="container__trailer">
 
@@ -67,8 +66,12 @@
 <button class="btn">Vælg</button>
 </div>
 
-
-
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+<script type="text/javascript" src="javascript/jquery.datetimepicker.full.js"></script>
+<script> $("#datetime").datetimepicker({
+    step: 15 });</script>
 
   </body>
 </html>
