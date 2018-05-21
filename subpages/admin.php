@@ -18,7 +18,11 @@
 		$database = new Database;
 		$database->connect();
 	?>
-
+  <header>
+    <img class="logo" src="../images/logo.png" alt="logo">
+    <h1 class="header_h1">Trailer Booking Management</h1>
+    <a href="../index.php">Hjem</a>
+  </header>
 <?php
 
 
@@ -36,6 +40,7 @@
 		<article>
 			<h3>Navn: <?php echo $booking['Navn'];?></h3>
       <p>Nummer: <?php echo $booking['Nummer'];?></p>
+			<p>Booking ID: <?php echo $booking['ID'];?></p>
 			<p>Mail: <?php echo $booking['Mail'];?></p>
       <p>Adresse: <?php echo $booking['Adresse'];?></p>
 			<p>Hjemby: <?php echo $booking['Hjemby'];?></p>

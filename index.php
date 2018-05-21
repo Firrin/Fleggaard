@@ -95,7 +95,7 @@
         <h1 class="text_center">Oplysninger</h1>
         <h2 class="text_center">Indtast personlige oplysninger</h2>
 
-    <section class="booking_grid_container">
+
       <form action="process.php" method="post">
       	<label for="Navn">Navn</label>
       	<input type="text" name="Navn" placeholder="eks. Peter Jensen">
@@ -115,9 +115,9 @@
     		<label for="Post_nummer">Post nummer</label>
       	<input type="tel" pattern=".{4,4}" required title="Postnumre skal inde holder 4 cifre" name="Post_nummer" placeholder="eks. 8000">
 
-      	<input type="submit" name="submit" value="Næste">
+      	<input type="submit" name="submit" value="Send">
       </form>
-    </section>
+
     </main>
   </body>
 </html>
