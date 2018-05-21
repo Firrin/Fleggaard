@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
-<<<<<<< HEAD
     <?php
         // Get all types from the database
         	include('classes/database.php');
@@ -18,10 +17,7 @@
         	$sql = "SELECT * FROM booking";
         	$roster = $database->query($sql);
         ?>
-        
-=======
 
->>>>>>> b73734b8cb46ab24cd23b1064e4157791c326448
 <header>
   <a href="index.html"></a><img class="logo" src="images/logo.png" alt="logo">
   <h1 class="header_h1">Trailer Booking</h1>
@@ -53,10 +49,11 @@
 <p class="closedtrailer">250,-</p>
 
 </div>
-
+<section class="booking_grid_container">
+  <form action="process.php" method="post">
 <h2 class="heading">Udlejningssted</h2>
 
-<select required class="Udlejningssted">
+<select required class="Udlejningssted" name="Udlejningssted">
   <option value="Aarhus">Aarhus</option>
   <option value="Kolding">Kolding</option>
   <option value="Skanderborg">Skanderborg</option>
@@ -67,18 +64,20 @@
 <h2 class="heading">Dato</h2>
 
 
-<input id="datetime" class="dato" value="">
+<input id="datetime" class="dato" Name="Dato">
 
 <div class="container__trailer">
 
 <img src="images/2.png" alt="">
 <img src="images/2.png" alt="">
+<img src="images/2.png" alt="">
+</div>
 
-</div>
-<div class="button">
-<button class="btn">Vælg</button>
-<button class="btn">Vælg</button>
-</div>
+<select required class="Udlejningssted" name="Trailer">
+  <option value="Type 1">Type 1</option>
+  <option value="Type 2">Type 2</option>
+  <option value="Type 3">Type 3</option>
+</select>
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
@@ -87,20 +86,7 @@
 <script> $("#datetime").datetimepicker({
     step: 15 });</script>
 
-<<<<<<< HEAD
 
-=======
-<?php
-    // Get all types from the database
-    	include('classes/database.php');
-    	$database = new Database;
-    	$database->connect();
-
-    	// Select all types
-    	$sql = "SELECT * FROM booking";
-    	$roster = $database->query($sql);
-    ?>
->>>>>>> b73734b8cb46ab24cd23b1064e4157791c326448
 
     <main>
         <h1 class="text_center">Oplysninger</h1>
@@ -112,7 +98,7 @@
       	<input type="text" name="Navn" placeholder="eks. Peter Jensen">
 
       	<label for="Nummer">Telefon nummer</label>
-      	<input type="text" name="Nummer" placeholder="eks. 12345678">
+      	<input type="text" pattern=".{8,8}" required title="Telefon skal inde holder 8 cifre" name="Nummer" placeholder="eks. 12345678">
 
       	<label for="Mail">E-mail</label>
       	<input type="text" name="Mail" placeholder="eks. peter.jensen@mail.dk">
@@ -124,7 +110,7 @@
       	<input type="text" name="Hjemby" placeholder="eks. Aarhus">
 
     		<label for="Post_nummer">Post nummer</label>
-      	<input type="text" name="Post_nummer" placeholder="eks. 8000">
+      	<input type="tel" pattern=".{4,4}" required title="Postnumre skal inde holder 4 cifre" name="Post_nummer" placeholder="eks. 8000">
 
       	<input type="submit" name="submit" value="Næste">
       </form>

@@ -23,7 +23,7 @@
 							Mail,
 							Adresse,
 							Hjemby,
-							Post_nummer,
+							Post_nummer
 							Trailer,
 							Udlejningssted,
 							Dato
