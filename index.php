@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
+<<<<<<< HEAD
     <?php
         // Get all types from the database
         	include('classes/database.php');
@@ -18,6 +19,9 @@
         	$roster = $database->query($sql);
         ?>
         
+=======
+
+>>>>>>> b73734b8cb46ab24cd23b1064e4157791c326448
 <header>
   <a href="index.html"></a><img class="logo" src="images/logo.png" alt="logo">
   <h1 class="header_h1">Trailer Booking</h1>
@@ -83,7 +87,20 @@
 <script> $("#datetime").datetimepicker({
     step: 15 });</script>
 
+<<<<<<< HEAD
 
+=======
+<?php
+    // Get all types from the database
+    	include('classes/database.php');
+    	$database = new Database;
+    	$database->connect();
+
+    	// Select all types
+    	$sql = "SELECT * FROM booking";
+    	$roster = $database->query($sql);
+    ?>
+>>>>>>> b73734b8cb46ab24cd23b1064e4157791c326448
 
     <main>
         <h1 class="text_center">Oplysninger</h1>
