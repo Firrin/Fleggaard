@@ -1,0 +1,118 @@
+body {
+  margin: 0px;
+  margin-top: 0px;
+}
+
+
+
+/* Header css*/
+header {
+  background-color: #d8dee1;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #94999b;
+  }
+
+  input, textarea, select, p {
+      display: block;
+      padding: 5px;
+      font-size: 1em;
+      box-sizing: border-box;
+  }
+
+.logo {
+  height: 130px;
+  width: 130px;
+
+}
+
+.header_h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.text_center {
+  text-align: center;
+}
+
+/* Grid */
+.booking_grid_container {
+  margin-left: 25%;
+  margin-right: 25%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+
+
+.heading, .heading__priser{
+  text-align:center;
+}
+
+
+.container__priser{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  font-size: 18px;
+  text-align: center;
+
+}
+
+.opentrailer{
+  background: lightgrey;
+  padding: 1em;
+  margin: 0;
+
+}
+
+.closedtrailer{
+  background: grey;
+  margin: 0;
+  padding: 1em;
+}
+select{
+  font-size: 1.5em;
+  display: block;
+  margin: 0 auto;
+
+}
+.container__trailer{
+  display: flex;
+  justify-content: space-around;
+}
+
+.button{
+  display: flex;
+   align-items: center;
+   justify-content: space-around;
+   margin-top: 1%;
+}
+
+.btn{
+  background: #41a941;
+  background-image: linear-gradient(to bottom, #41a941, #41a941);
+  border-radius: 8px;
+  border:none;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px 40px 10px 40px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #4ac24a;
+  background-image: linear-gradient(to bottom, #4ac24a, #4ac24a);
+  text-decoration: none;
+}
+.dato{
+  text-align: center;
+  margin: 0 auto;
+}
