@@ -54,10 +54,13 @@
 <h2 class="heading">Udlejningssted</h2>
 
 <select required class="Udlejningssted" name="Udlejningssted">
+  <option value="Aalborg">Aalborg</option>
   <option value="Aarhus">Aarhus</option>
-  <option value="Kolding">Kolding</option>
   <option value="Skanderborg">Skanderborg</option>
+  <option value="Horsens">Horsens</option>
   <option value="Vejle">Vejle</option>
+  <option value="Kolding">Kolding</option>
+  <option value="Aabenraa">Aabenraa</option>
 </select>
 
 
