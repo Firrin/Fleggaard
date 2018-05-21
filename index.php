@@ -19,9 +19,15 @@
         ?>
 
 <header>
+<<<<<<< HEAD
   <img class="logo" src="images/logo.png" alt="logo">
   <h1 class="header_h1">Trailer Booking</h1>
   <a href="index.html">Admin login</a>
+=======
+  <a href="index.html"></a><img class="logo" src="images/logo.png" alt="logo">
+  <h1 class="header_h1">Trailer Booking</h1>
+  <img class="logo hidden" src="../images/logo.png">
+>>>>>>> efb43d2246310d2409dd97b0ccd5d05e58f0999e
 </header>
 <h2 class="heading__priser">PRISER OG STØRRELSER</h2>
 
