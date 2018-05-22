@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Fleggaard trailerudlejning</title>
+       <!--https://plugins.jquery.com/datetimepicker/ -->
     <link rel="stylesheet" href="css/jquery.datetimepicker.min.css">
     <link rel="stylesheet" href="css/styles.css">
   </head>
@@ -63,6 +64,13 @@
   <option value="Aabenraa">Aabenraa</option>
 </select>
 
+<div id="map"></div>
+
+
+
+
+
+
 
 <h2 class="heading">Dato</h2>
 
@@ -119,5 +127,15 @@
       </form>
 
     </main>
+
+
+<script type="text/javascript" src="javascript/script.js">
+
+</script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyChEruppDeQDYm0rvHc0Z7J72cfhfzkfmk&callback=initMap">
+    </script>
+
+
   </body>
 </html>
