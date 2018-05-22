@@ -50,13 +50,13 @@
 <p class="closedtrailer">250,-</p>
 
 </div>
-<section class="booking_grid_container">
+
   <form action="process.php" method="post">
 <h2 class="heading">Udlejningssted</h2>
 
 <select required class="Udlejningssted" name="Udlejningssted">
   <option value="Aalborg">Aalborg</option>
-  <option value ="Randers">Randers</option>
+  <option value="Randers">Randers</option>
   <option value="Aarhus">Aarhus</option>
   <option value="Skanderborg">Skanderborg</option>
   <option value="Horsens">Horsens</option>
@@ -76,13 +76,13 @@
 <h2 class="heading">Dato</h2>
 
 
-<input id="datetime" class="dato" Name="Dato">
+<input id="datetime" class="dato" Name="Dato" placeholder="2018/09/05 15:00">
 
 <div class="container__trailer">
 
-<img src="images/2.png" alt="">
-<img src="images/2.png" alt="">
-<img src="images/2.png" alt="">
+<img src="images/trailer_1.png" alt="trailer_1.png">
+<img src="images/trailer_2.png" alt="trailer_2.png">
+<img src="images/trailer_3.png" alt="trailer_3.png">
 </div>
 
 <select required class="Udlejningssted" name="Trailer">
@@ -100,9 +100,9 @@
 
 
 
-    <main>
-        <h1 class="text_center">Oplysninger</h1>
-        <h2 class="text_center">Indtast personlige oplysninger</h2>
+    <article class="booking_grid_container">
+        <h1>Oplysninger</h1>
+        <h2>Indtast personlige oplysninger</h2>
 
 
       <form action="process.php" method="post">
@@ -113,7 +113,7 @@
       	<input type="text" pattern=".{8,8}" required title="Telefon skal inde holder 8 cifre" name="Nummer" placeholder="eks. 12345678">
 
       	<label for="Mail">E-mail</label>
-      	<input type="text" name="Mail" placeholder="eks. peter.jensen@mail.dk">
+      	<input type="email" name="Mail" placeholder="eks. peter.jensen@mail.dk">
 
       	<label for="Adresse">Adresse</label>
       	<input type="text" name="Adresse" placeholder="eks. Risdalsvej 46">
@@ -127,7 +127,7 @@
       	<input type="submit" name="submit" value="Send">
       </form>
 
-    </main>
+    </article>
 
 
 <script type="text/javascript" src="javascript/script.js">
