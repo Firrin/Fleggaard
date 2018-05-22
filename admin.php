@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Fleggaard trailerudlejning!</title>
-	<link rel="stylesheet" type="text/css" href="css/stylesb.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
 	<?php
@@ -18,10 +18,10 @@
 		$database = new Database;
 		$database->connect();
 	?>
-	<header class="header">
+	<header>
 		<img class="logo" src="images/logo.png" alt="logo">
 		<h1 class="header_h1">Trailer Booking Management</h1>
-		<a href="../index.php">Hjem</a>
+		<a href="index.php">Hjem</a>
 	</header>
 <?php
 
@@ -37,18 +37,20 @@
 	foreach ($bookings as $booking) {
 		?>
 
-		<article>
-			<h3>Navn: <?php echo $booking['Navn'];?></h3>
-      <p>Nummer: <?php echo $booking['Nummer'];?></p>
-			<p>Booking ID: <?php echo $booking['ID'];?></p>
-			<p>Mail: <?php echo $booking['Mail'];?></p>
-      <p>Adresse: <?php echo $booking['Adresse'];?></p>
-			<p>Hjemby: <?php echo $booking['Hjemby'];?></p>
-			<p>Post_nummer: <?php echo $booking['Post_nummer'];?></p>
-			<p>Trailer: <?php echo $booking['Trailer'];?></p>
-			<p>Udlejningssted: <?php echo $booking['Udlejningssted'];?></p>
-			<p>Dato: <?php echo $booking['Dato'];?></p>
-			</a>
+
+		<article class="admin_grid">
+			<p><?php echo $booking['ID'];?></p>
+			<p><?php echo $booking['Navn'];?></p>
+			<p><?php echo $booking['Nummer'];?></p>
+			<p><?php echo $booking['ID'];?></p>
+			<p><?php echo $booking['Mail'];?></p>
+      <p><?php echo $booking['Adresse'];?></p>
+			<p><?php echo $booking['Hjemby'];?></p>
+			<p><?php echo $booking['Post_nummer'];?></p>
+			<p><?php echo $booking['Trailer'];?></p>
+			<p><?php echo $booking['Udlejningssted'];?></p>
+			<p><?php echo $booking['Dato'];?></p>
+
 		</article>
 
 

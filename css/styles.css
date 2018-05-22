@@ -138,8 +138,8 @@ select{
  .admin_grid {
    display: grid;
    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-   grid-template-rows: 2em;;
+   grid-template-rows: 1fr;
+   grid-auto-flow: row;
    font-size: 18px;
    text-align: center;
-
  }
