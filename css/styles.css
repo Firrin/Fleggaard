@@ -16,7 +16,6 @@ header {
   input, textarea, select, p {
       display: block;
       padding: 5px;
-      margin-top: 10px;
       font-size: 1em;
       box-sizing: border-box;
   }
@@ -48,7 +47,7 @@ header {
   margin-right: 25%;
   display: flex;
   justify-content: center;
-  flex-direction: column;
+  justify-content: space-around;
 }
 
 
@@ -61,10 +60,15 @@ header {
 .container__priser{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
   font-size: 18px;
   text-align: center;
 
+}
+.lilletrailer{
+  background: grey;
+  padding: 1em;
+  margin: 0;
 }
 
 .opentrailer{
@@ -96,6 +100,10 @@ select{
    justify-content: space-around;
    margin-top: 1%;
 }
+.container__trailer{
+    display: flex;
+}
+
 
 .btn{
   background: #41a941;
