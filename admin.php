@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Fleggaard trailerudlejning!</title>
-	<link rel="stylesheet" type="text/css" href="../css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/stylesb.css">
 </head>
 <body>
 	<?php
@@ -14,15 +14,15 @@
 
 
 		// Include and initiate the database class (you only have to do this once)
-		include('../classes/database.php');
+		include('classes/database.php');
 		$database = new Database;
 		$database->connect();
 	?>
-  <header>
-    <img class="logo" src="../images/logo.png" alt="logo">
-    <h1 class="header_h1">Trailer Booking Management</h1>
-    <a href="../index.php">Hjem</a>
-  </header>
+	<header class="header">
+		<img class="logo" src="images/logo.png" alt="logo">
+		<h1 class="header_h1">Trailer Booking Management</h1>
+		<a href="../index.php">Hjem</a>
+	</header>
 <?php
 
 
