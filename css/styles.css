@@ -16,6 +16,7 @@ header {
   input, textarea, select, p {
       display: block;
       padding: 5px;
+      margin-top: 10px;
       font-size: 1em;
       box-sizing: border-box;
   }
@@ -47,7 +48,7 @@ header {
   margin-right: 25%;
   display: flex;
   justify-content: center;
-  justify-content: space-around;
+  flex-direction: column;
 }
 
 
