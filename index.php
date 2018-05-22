@@ -56,7 +56,7 @@
 
 <select required class="Udlejningssted" name="Udlejningssted">
   <option value="Aalborg">Aalborg</option>
-  <option value ="Randers">Randers</option>
+  <option value="Randers">Randers</option>
   <option value="Aarhus">Aarhus</option>
   <option value="Skanderborg">Skanderborg</option>
   <option value="Horsens">Horsens</option>
@@ -113,7 +113,7 @@
       	<input type="text" pattern=".{8,8}" required title="Telefon skal inde holder 8 cifre" name="Nummer" placeholder="eks. 12345678">
 
       	<label for="Mail">E-mail</label>
-      	<input type="text" name="Mail" placeholder="eks. peter.jensen@mail.dk">
+      	<input type="email" name="Mail" placeholder="eks. peter.jensen@mail.dk">
 
       	<label for="Adresse">Adresse</label>
       	<input type="text" name="Adresse" placeholder="eks. Risdalsvej 46">
