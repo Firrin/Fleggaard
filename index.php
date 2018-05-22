@@ -35,6 +35,13 @@
 <p>Pris</p>
 <p>Depositum</p>
 
+<p class="lilletrailer">Lille trailer:</p>
+<p class="lilletrailer">225 kg</p>
+<p class="lilletrailer">400 kg</p>
+<p class="lilletrailer">165 x 124 x 29</p>
+<p class="lilletrailer">xxx</p>
+<p class="lilletrailer">250,-</p>
+
 <p class="opentrailer">Åben trailer:</p>
 <p class="opentrailer">327 kg</p>
 <p class="opentrailer">500 kg</p>
@@ -50,14 +57,14 @@
 <p class="closedtrailer">250,-</p>
 
 </div>
-
+<section class="booking_grid_container">
   <form action="process.php" method="post">
 <h2 class="heading">Udlejningssted</h2>
 
 <select required class="Udlejningssted" name="Udlejningssted">
   <option value="Aalborg">Aalborg</option>
   <option value="Randers">Randers</option>
-  <option value="Aarhus">Aarhus</option>
+  <option selected value="Aarhus">Aarhus</option>
   <option value="Skanderborg">Skanderborg</option>
   <option value="Horsens">Horsens</option>
   <option value="Vejle">Vejle</option>
@@ -100,9 +107,9 @@
 
 
 
-    <article class="booking_grid_container">
-        <h1>Oplysninger</h1>
-        <h2>Indtast personlige oplysninger</h2>
+    <main>
+        <h1 class="text_center">Oplysninger</h1>
+        <h2 class="text_center">Indtast personlige oplysninger</h2>
 
 
       <form action="process.php" method="post">
@@ -127,7 +134,7 @@
       	<input type="submit" name="submit" value="Send">
       </form>
 
-    </article>
+    </main>
 
 
 <script type="text/javascript" src="javascript/script.js">
