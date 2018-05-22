@@ -56,6 +56,7 @@
 
 <select required class="Udlejningssted" name="Udlejningssted">
   <option value="Aalborg">Aalborg</option>
+  <option value ="Randers">Randers</option>
   <option value="Aarhus">Aarhus</option>
   <option value="Skanderborg">Skanderborg</option>
   <option value="Horsens">Horsens</option>
