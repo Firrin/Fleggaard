@@ -22,7 +22,7 @@
 <header>
   <img class="logo" src="images/logo.png" alt="logo">
   <h1 class="header_h1">Trailer Booking</h1>
-  <a href="subpages/admin.php">Admin login</a>
+  <a href="admin.php">Admin login</a>
 </header>
 <h2 class="heading__priser">PRISER OG STØRRELSER</h2>
 
