@@ -13,7 +13,7 @@ var bounds = new google.maps.LatLngBounds();
             var markers = [
               ['Nordjyske Motorvej 285, 9230 Aalborg',56.992715, 9.904865],
               ['Ringvej syd 104. 8260 Viby', 56.117239, 10.150283],
-              ['Engelsholmvej 39, 8940 Randers', 56.415611, 10.072617]
+              ['Engelsholmvej 39, 8940 Randers', 56.415611, 10.072617],
               ['Møllegade 103, 8660 Skanderborg', 56.039304, 9.917008],
               ['Birkedam 14, Harte, 6000 Kolding', 55.518266, 9.444145],
               ['Fredericiavej 151, 7100 Vejle', 55.685547, 9.560671],
