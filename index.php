@@ -113,23 +113,23 @@
 
 
       <form action="process.php" method="post">
-      	<label for="Navn">Navn</label>
-      	<input type="text" name="Navn" placeholder="eks. Peter Jensen">
+      	<label  for="Navn">Navn</label>
+      	<input required type="text" name="Navn" placeholder="eks. Peter Jensen">
 
-      	<label for="Nummer">Telefon nummer</label>
+      	<label required for="Nummer">Telefon nummer</label>
       	<input type="text" pattern=".{8,8}" required title="Telefon skal inde holder 8 cifre" name="Nummer" placeholder="eks. 12345678">
 
       	<label for="Mail">E-mail</label>
-      	<input type="email" name="Mail" placeholder="eks. peter.jensen@mail.dk">
+      	<input required type="email" name="Mail" placeholder="eks. peter.jensen@mail.dk">
 
       	<label for="Adresse">Adresse</label>
-      	<input type="text" name="Adresse" placeholder="eks. Risdalsvej 46">
+      	<input required type="text" name="Adresse" placeholder="eks. Risdalsvej 46">
 
     		<label for="Hjemby">By</label>
-      	<input type="text" name="Hjemby" placeholder="eks. Aarhus">
+      	<input required type="text" name="Hjemby" placeholder="eks. Aarhus">
 
     		<label for="Post_nummer">Post nummer</label>
-      	<input type="tel" pattern=".{4,4}" required title="Postnumre skal inde holder 4 cifre" name="Post_nummer" placeholder="eks. 8000">
+      	<input required type="tel" pattern=".{4,4}" required title="Postnumre skal inde holder 4 cifre" name="Post_nummer" placeholder="eks. 8000">
 
       	<input type="submit" name="submit" value="Send">
       </form>
