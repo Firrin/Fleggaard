@@ -3223,9 +3223,7 @@ var datetimepickerFactory = function($) {
   }
 
 }));
-let today = new Date().toISOString().substr(0, 10);
+
+
+let today = new Date().toISOString().slice(0, 10);
 document.querySelector("#datetime").value = today;
-
-// or...
-
-document.querySelector("#datetime").valueAsDate = new Date();

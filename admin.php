@@ -28,12 +28,12 @@
 
 
 
-	// Get all from tables roster and likes
+	// Get all from tables Booking
 	$bookings = $database->query('SELECT *	FROM booking');
 
 
 
-  // Loop through all titles
+  // Loop through all Bookings
 	foreach ($bookings as $booking) {
 		?>
 
@@ -42,7 +42,6 @@
 			<p><?php echo $booking['ID'];?></p>
 			<p><?php echo $booking['Navn'];?></p>
 			<p><?php echo $booking['Nummer'];?></p>
-			<p><?php echo $booking['ID'];?></p>
 			<p><?php echo $booking['Mail'];?></p>
       <p><?php echo $booking['Adresse'];?></p>
 			<p><?php echo $booking['Hjemby'];?></p>

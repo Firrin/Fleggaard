@@ -1,4 +1,6 @@
 // https://wrightshq.com/playground/placing-multiple-markers-on-a-google-map-using-api-3/
+
+
             // Display a map on the page
   function initMap() {
 var bounds = new google.maps.LatLngBounds();
@@ -9,7 +11,7 @@ var bounds = new google.maps.LatLngBounds();
 
 
 
-            // Multiple Markers title and coordinates lat&lng
+            // Multiple Markers title[0] and coordinates lat&lng[1][2]
             var markers = [
               ['Nordjyske Motorvej 285, 9230 Aalborg',56.992715, 9.904865],
               ['Ringvej syd 104. 8260 Viby', 56.117239, 10.150283],

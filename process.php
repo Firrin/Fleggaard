@@ -45,8 +45,9 @@
 	// Call prepared function to execute the above
 	$booking = $database->prepared($sql,$values);
 ?>
-<p><?php echo $booking->lastinsertId();?></p>
 
+
+   <!-- Success besked -->
 <p class="notice success">Din bestilling er nu registreret
 	<a href="index.php" class="notice">Tilbage</a>
 </p>

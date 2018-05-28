@@ -3,25 +3,26 @@ body {
   margin-top: 0px;
 
 }
+
 /* Header css*/
+
 header {
   background-color: #d8dee1;
   display: flex;
   justify-content: space-between;
   border-bottom: 2px solid #94999b;
-  }
+}
 
-  input, textarea, select, p {
-      display: block;
-      padding: 5px;
-      font-size: 1em;
-      box-sizing: border-box;
-  }
+input, textarea, select, p {
+  display: block;
+  padding: 5px;
+  font-size: 1em;
+  box-sizing: border-box;
+}
 
 .logo {
   height: 130px;
   width: 130px;
-
 }
 
 .header_h1 {
@@ -36,6 +37,7 @@ header {
 }
 
 /* Grid */
+
 .booking_grid_container {
   margin-left: 25%;
   margin-right: 25%;
@@ -44,7 +46,7 @@ header {
   justify-content: space-around;
 }
 
-.heading__priser{
+.heading__priser {
   background: #3c4044;
   color: white;
   margin-top: 0;
@@ -52,143 +54,143 @@ header {
   margin-bottom: 0;
 }
 
-.heading, .heading__priser{
-  text-align:center;
+.heading, .heading__priser {
+  text-align: center;
 }
-.container__priser{
+
+.container__priser {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   font-size: 18px;
   text-align: center;
-
 }
-.trailerinfo{
+
+
+
+.trailerinfo {
   text-align: center;
   background: #d8dee1;
-  padding:1em;
-  margin:0;
+  padding: 1em;
+  margin: 0;
   margin-top: 0;
 }
-.lilletrailer{
+
+.lilletrailer {
   background: lightgrey;
   padding: 1em;
   margin: 0;
 }
 
-.opentrailer{
+.opentrailer {
   background: #d8dee1;
   padding: 1em;
   margin: 0;
 }
 
-.closedtrailer{
+.closedtrailer {
   background: lightgrey;
   margin: 0;
   padding: 1em;
 }
-select{
+
+select {
   font-size: 1.5em;
   display: block;
   margin: 0 auto;
   background: #7d7f77;
-border-radius: 4px;
-padding: 0 8px;
-color: #FFFFFF;
-font-size: 20px;
-height: 40px;
-line-height: 29px;
-cursor: pointer;
-text-align: left;
-
+  border-radius: 4px;
+  padding: 0 8px;
+  color: #FFFFFF;
+  font-size: 20px;
+  height: 40px;
+  line-height: 29px;
+  cursor: pointer;
+  text-align: left;
 }
-.container__trailer{
+
+.radiobuttons__select {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container__trailer {
   display: flex;
   justify-content: space-between;
   margin-bottom: 1.5em;
-  margin-top: -3em;
 
 }
-
-.container__trailer p{
-  display: block;
-  break-after: always;
-}
-
-.radiobuttons{
+.trailervalg {
   display: flex;
   justify-content: space-around;
 }
-.trailervalg{
+.trailer__info {
   display: flex;
   justify-content: space-around;
+  margin-top: -1em;
+  margin-left:1.4em;
 }
-input[type=radio]{
-  width: 100%;
-  height: 1em;
-}
+.trailer__info
 
-.trailertype{
+.trailertype {
   text-align: center;
   margin-top: 2em;
 }
-.date{
+
+.date {
   margin-top: 2em;
-display: flex;
-justify-content: space-around;
-align-items: center;
-
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-
-.container__trailer{
-    display: flex;
+.container__trailer {
+  display: flex;
 }
 
- .dato{
+.dato {
   text-align: center;
   /* margin: 0 auto; */
   font-size: 1.5em;
   display: block;
   background: #7d7f77;
-border-radius: 4px;
-padding: 0 8px;
-color: white;
-font-size: 20px;
-height: 40px;
-line-height: 29px;
-cursor: pointer;
-text-align: left;
+  border-radius: 4px;
+  padding: 0 8px;
+  color: white;
+  font-size: 20px;
+  height: 40px;
+  line-height: 29px;
+  cursor: pointer;
+  text-align: left;
 }
-
 
 #map {
   height: 400px;
   width: 100%;
   margin-top: 1em;
- }
- .admin_grid {
-   display: grid;
-   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-   grid-template-rows: 2em;;
-   font-size: 18px;
-   text-align: center;
- }
+}
 
+.admin_grid {
+  display: grid;
+  grid-template-columns: repeat(11, 9%);
+  grid-template-rows: 2em;
+  grid-column-gap: 50px;
+  font-size: 18px;
+  text-align: center;
+}
 
-main{
-
+main {
   padding: 5px 10px 10px 10px;
 }
 
- main input:not([type='submit']){
-   display: block;
-   box-sizing: border-box;
-   text-indent: 0;
-   height: 30px;
-   line-height: 40px;
-   font-family: Tahoma, Arial, sans-serif;
-   font-size: 1em;
-   width: 50%;
-   margin-bottom: 1em;
- }
+main input:not([type='submit']) {
+  display: block;
+  box-sizing: border-box;
+  text-indent: 0;
+  height: 30px;
+  line-height: 40px;
+  font-family: Tahoma, Arial, sans-serif;
+  font-size: 1em;
+  width: 50%;
+  margin-bottom: 1em;
+}
