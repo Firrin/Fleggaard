@@ -2,7 +2,12 @@
 <html>
 <head>
 	<title>Fleggaard trailerudlejning!</title>
+	<!-- favicon start -->
+	<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+		<!-- favicon slut -->
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
+
 </head>
 <body>
 	<?php

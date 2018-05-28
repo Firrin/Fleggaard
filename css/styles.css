@@ -1,7 +1,7 @@
 body {
   margin: 0 0;
   margin-top: 0px;
-
+background: linear-gradient(to bottom, #ffffff 0%,#d8dee1 100%);
 }
 
 /* Header css*/
@@ -112,6 +112,9 @@ select {
 .radiobuttons__select {
   display: flex;
   justify-content: space-around;
+  align-items: baseline;
+  margin-left: 3.6em;
+
 }
 
 .container__trailer {
@@ -130,11 +133,12 @@ select {
   margin-top: -1em;
   margin-left:1.4em;
 }
-.trailer__info
-
-.trailertype {
+.trailertype__h2 {
   text-align: center;
   margin-top: 2em;
+}
+.trailertype__select{
+  margin-left: 10em;
 }
 
 .date {
@@ -177,10 +181,15 @@ select {
   grid-column-gap: 50px;
   font-size: 18px;
   text-align: center;
+
 }
 
 main {
   padding: 5px 10px 10px 10px;
+  border: 1px solid #999999;
+    border-radius: 8px;
+    background-color: #e6e6e6;
+    margin-bottom: 1em;
 }
 
 main input:not([type='submit']) {

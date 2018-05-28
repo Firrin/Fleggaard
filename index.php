@@ -72,7 +72,7 @@
 <h2 class="heading">1. Vælg et udlejningssted</h2>
 
 <select required class="Udlejningssted" name="Udlejningssted">
-  <option selected value="">Vælg</option>
+  <option selected dis value="">Vælg</option>
   <option value="Aalborg">Aalborg</option>
   <option value="Randers">Randers</option>
   <option value="Aarhus">Aarhus</option>
@@ -99,12 +99,12 @@
 
 
 <!-- Punkt 3. valg af trailertype start -->
-
-<h2 class="trailertype">3. Vælg din trailertype:</h2>
-
 <div class="radiobuttons__select">
-<select required class="" name="Trailer">
-  <option selected value="0">Vælg</option>
+<h2 class="trailertype__h2">3. Vælg din trailertype:</h2>
+
+
+<select required class="trailertype__select" name="Trailer">
+  <option selected disabled value="">Vælg</option>
   <option value="1">Lille trailer</option>
   <option value="2">Stor trailer</option>
   <option value="3">Lukket trailer</option>
@@ -141,7 +141,7 @@
         <h1 class="">Oplysninger</h1>
         <h2 class="">4. Indtast personlige oplysninger</h2>
 
-      <form action="process.php" method="post">
+    
       	<label  for="Navn">Navn:</label>
       	<input required type="text" name="Navn" placeholder="eks. Peter Jensen">
 
