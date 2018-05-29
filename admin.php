@@ -28,6 +28,20 @@
 		<h1 class="header_h1">Trailer Booking Management</h1>
 		<a href="index.php">Hjem</a>
 	</header>
+<!-- Øverste navne til kolonnerne-->
+	<article class="admin_grid">
+		<p>ID</p>
+		<p>Navn</p>
+		<p>Nummer</p>
+		<p>Mail</p>
+		<p>Adresse</p>
+		<p>By</p>
+		<p>Postnummer</p>
+		<p>Trailer</p>
+		<p>Udlejningssted</p>
+		<p>Afhentnings dato</p>
+
+	</article>
 <?php
 
 

@@ -6,9 +6,9 @@
     <!-- favicon start -->
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-      <!-- favicon slut
-
-     -->
+      <!-- favicon slut-->
+      <meta name="description" content="Fleggaard trailerudlejning. Lej en gratis trailer hos os,
+      hent den i en by nær dig og handel i en af Fleggaards butikker og aflever den tilbage samme sted.">
        <!--https://plugins.jquery.com/datetimepicker/ -->
     <link rel="stylesheet" href="css/jquery.datetimepicker.min.css">
     <link rel="stylesheet" href="css/styles.css">
@@ -27,14 +27,15 @@
 
 <header>
   <img class="logo" src="images/logo.png" alt="logo">
-  <h1 class="header_h1">Trailer Booking</h1>
+  <h1 class="header_h1"> Gratis* trailer Booking</h1>
   <a href="admin.php">Admin login</a>
 </header>
 
 <!-- Priser og størrelser start -->
 <h2 class="heading__priser">PRISER OG STØRRELSER</h2>
-
+<p class="asterisk">*Forudsætter køb hos en af Fleggaards grænsebutikker på over 500 kr </p>
 <div class="container__priser">
+
 <p class="trailerinfo">Trailer type:</p>
 <p class="trailerinfo">Lastvægt</p>
 <p class="trailerinfo">Totalvægt</p>
@@ -46,21 +47,21 @@
 <p class="lilletrailer">225 kg</p>
 <p class="lilletrailer">400 kg</p>
 <p class="lilletrailer">165 x 124 x 29</p>
-<p class="lilletrailer">xxx</p>
+<p class="lilletrailer">0,-</p>
 <p class="lilletrailer">250,-</p>
 
 <p class="opentrailer">Åben trailer:</p>
 <p class="opentrailer">327 kg</p>
 <p class="opentrailer">500 kg</p>
 <p class="opentrailer">205 x 128 x 40</p>
-<p class="opentrailer">xxx</p>
+<p class="opentrailer">0,-</p>
 <p class="opentrailer">250,-</p>
 
 <p class="closedtrailer">Lukket trailer:</p>
 <p class="closedtrailer">325 kg</p>
 <p class="closedtrailer">750 kg</p>
 <p class="closedtrailer">258 x 128 x 125</p>
-<p class="closedtrailer">xxx</p>
+<p class="closedtrailer">0,-</p>
 <p class="closedtrailer">250,-</p>
 
 </div>
@@ -72,7 +73,7 @@
 <h2 class="heading">1. Vælg et udlejningssted</h2>
 
 <select required class="Udlejningssted" name="Udlejningssted">
-  <option selected dis value="">Vælg</option>
+  <option selected disabled value="">Vælg</option>
   <option value="Aalborg">Aalborg</option>
   <option value="Randers">Randers</option>
   <option value="Aarhus">Aarhus</option>
@@ -115,9 +116,9 @@
 
 <div class="container__trailer">
 
-     <img src="images/lilletrailer.png" alt="trailer_1.png">
-    <img src="images/stortrailer.png" alt="trailer_2.png">
-    <img src="images/lukkettrailer.png" alt="trailer_3.png">
+     <img src="images/lilletrailer.png" alt="Lille trailertype">
+    <img src="images/stortrailer.png" alt="Stor trailertype">
+    <img src="images/lukkettrailer.png" alt="Lukket trailer">
   </div>
 
 <div class="trailervalg">
@@ -141,7 +142,7 @@
         <h1 class="">Oplysninger</h1>
         <h2 class="">4. Indtast personlige oplysninger</h2>
 
-    
+
       	<label  for="Navn">Navn:</label>
       	<input required type="text" name="Navn" placeholder="eks. Peter Jensen">
 

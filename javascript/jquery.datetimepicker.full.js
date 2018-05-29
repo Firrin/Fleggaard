@@ -4,7 +4,7 @@
  *
  * Date formatter utility library that allows formatting date/time variables or Date objects using PHP DateTime format.
  * @see http://php.net/manual/en/function.date.php
- *
+ *   <!--https://plugins.jquery.com/datetimepicker/ -->
  * For more JQuery plugins visit http://plugins.krajee.com
  * For more Yii related demos visit http://demos.krajee.com
  */

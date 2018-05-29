@@ -2,9 +2,9 @@
 <html>
 <head>
 	<title>processing</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
-<body>
+<body class="process">
 <?php
 
 	// check what is received through POST
@@ -48,8 +48,10 @@
 
 
    <!-- Success besked -->
-<p class="notice success">Din bestilling er nu registreret
+	 <div class="procress__suceess">
+<p class="success">Din bestilling er nu registreret
 	<a href="index.php" class="notice">Tilbage</a>
 </p>
+</div>
 </body>
 </html>
