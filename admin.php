@@ -40,7 +40,6 @@
 		<p>Trailer</p>
 		<p>Udlejningssted</p>
 		<p>Afhentnings dato</p>
-
 	</article>
 <?php
 
@@ -68,7 +67,6 @@
 			<p><?php echo $booking['Trailer'];?></p>
 			<p><?php echo $booking['Udlejningssted'];?></p>
 			<p><?php echo $booking['Dato'];?></p>
-
 		</article>
 
 
