@@ -17,7 +17,7 @@
 
 
 <header>
-  <a href="../../www.fleggaard.dk"> <img class="logo" src="images/logo.png" alt="logo"> </a>
+  <img class="logo" src="images/logo.png" alt="logo">
   <h1 class="header_h1"> Gratis* trailer Booking</h1>
   <a href="admin.php">Admin login</a>
 </header>
