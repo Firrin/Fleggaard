@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Fleggaard trailerudlejning</title>
+    <title>Fleggaard Trailerudlejning</title>
     <!-- favicon start -->
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
@@ -47,22 +47,22 @@
 <p class="lilletrailer">225 kg</p>
 <p class="lilletrailer">400 kg</p>
 <p class="lilletrailer">165 x 124 x 29</p>
-<p class="lilletrailer">0,-</p>
-<p class="lilletrailer">250,-</p>
+<p class="lilletrailer">0*,-</p>
+<p class="lilletrailer">500,-</p>
 
 <p class="opentrailer">Åben trailer:</p>
 <p class="opentrailer">327 kg</p>
 <p class="opentrailer">500 kg</p>
 <p class="opentrailer">205 x 128 x 40</p>
-<p class="opentrailer">0,-</p>
-<p class="opentrailer">250,-</p>
+<p class="opentrailer">0*,-</p>
+<p class="opentrailer">500,-</p>
 
 <p class="closedtrailer">Lukket trailer:</p>
 <p class="closedtrailer">325 kg</p>
 <p class="closedtrailer">750 kg</p>
 <p class="closedtrailer">258 x 128 x 125</p>
-<p class="closedtrailer">0,-</p>
-<p class="closedtrailer">250,-</p>
+<p class="closedtrailer">0*,-</p>
+<p class="closedtrailer">500,-</p>
 
 </div>
 <!-- Priser og størrelser slut -->
@@ -83,6 +83,12 @@
   <option value="Kolding">Kolding</option>
   <option value="Aabenraa">Aabenraa</option>
 </select>
+
+<div class="heading">
+<h3>Åbningstider</h3>
+<P>Mandag til søndag 06:00 - 18:00</p>
+<P>Helligdage 06:00 - 12:00</p>
+</div>
 <!-- Punkt 1 valg af udlejningssted slut -->
 
 
