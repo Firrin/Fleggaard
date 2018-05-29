@@ -14,22 +14,24 @@
     <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
-    <?php
-        // Get all types from the database
-        	include('classes/database.php');
-        	$database = new Database;
-        	$database->connect();
 
-        	// Select all types
-        	$sql = "SELECT * FROM booking";
-        	$roster = $database->query($sql);
-        ?>
 
 <header>
-  <img class="logo" src="images/logo.png" alt="logo">
+  <a href="../../www.fleggaard.dk"> <img class="logo" src="images/logo.png" alt="logo"> </a>
   <h1 class="header_h1"> Gratis* trailer Booking</h1>
   <a href="admin.php">Admin login</a>
 </header>
+
+<?php
+    // Get all types from the database
+      include('classes/database.php');
+      $database = new Database;
+      $database->connect();
+
+      // Select all types
+      $sql = "SELECT * FROM booking";
+      $roster = $database->query($sql);
+    ?>
 
 <!-- Priser og størrelser start -->
 <h2 class="heading__priser">PRISER OG STØRRELSER</h2>
