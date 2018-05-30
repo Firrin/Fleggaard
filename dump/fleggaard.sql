@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.8.0
+-- version 4.7.4
 -- https://www.phpmyadmin.net/
 --
--- Host: 127.0.0.1
--- Generation Time: May 21, 2018 at 04:34 PM
--- Server version: 10.1.31-MariaDB
--- PHP Version: 7.2.4
+-- Vært: 127.0.0.1
+-- Genereringstid: 30. 05 2018 kl. 10:27:57
+-- Serverversion: 10.1.28-MariaDB
+-- PHP-version: 7.1.10
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -25,7 +25,7 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Table structure for table `booking`
+-- Struktur-dump for tabellen `booking`
 --
 
 CREATE TABLE `booking` (
@@ -42,24 +42,21 @@ CREATE TABLE `booking` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `booking`
+-- Data dump for tabellen `booking`
 --
 
 INSERT INTO `booking` (`ID`, `Navn`, `Nummer`, `Mail`, `Adresse`, `Hjemby`, `Post_nummer`, `Trailer`, `Udlejningssted`, `Dato`) VALUES
-(27, 'dfghj', 34567898, '45678@ybjk.dk', 'qdsf 23', 'huio', 8968, 0, '', '0000-00-00 00:00:00'),
-(28, 'dfghj', 34567898, '45678@ybjk.dk', 'qdsf 23', 'huio', 8968, 0, '', '0000-00-00 00:00:00'),
-(29, 'dfghj', 34567898, '45678@ybjk.dk', 'qdsf 23', 'huio', 8968, 0, '', '0000-00-00 00:00:00'),
-(30, '', 0, '', '', '', 0, 0, '', '0000-00-00 00:00:00'),
-(31, '', 0, '', '', '', 0, 0, '', '0000-00-00 00:00:00'),
-(32, '', 0, '', '', '', 0, 0, '', '0000-00-00 00:00:00'),
-(33, '', 0, '', '', '', 0, 0, '', '0000-00-00 00:00:00');
+(80, 'Jens Jensen', 12345678, 'Jensjensen@hotmail.com', 'skolegade 2', 'HjortshÃ¸j', 8110, 2, 'Aarhus', '2018-06-01 14:00:00'),
+(81, 'Christian Larsen', 22222222, 'Jensjensen@hotmail.com', 'ringgaden 22', 'Randers', 8110, 3, 'Randers', '2018-05-30 13:45:00'),
+(82, 'KÃ¥re Andersen', 66666666, 'Kaareandersen@supermand.dk', 'sÃ¸ndervÃ¦gnet 14', 'Aarhus', 8000, 3, 'Aarhus', '2018-05-30 00:00:00'),
+(83, 'Peter Madsen', 66666666, 'Petermadsen@raket.dk', 'ubÃ¥den 1', 'Havet', 2244, 3, 'Skanderborg', '2018-06-06 13:15:00');
 
 --
--- Indexes for dumped tables
+-- Begrænsninger for dumpede tabeller
 --
 
 --
--- Indexes for table `booking`
+-- Indeks for tabel `booking`
 --
 ALTER TABLE `booking`
   ADD PRIMARY KEY (`ID`),
@@ -67,14 +64,14 @@ ALTER TABLE `booking`
   ADD KEY `Name` (`Navn`);
 
 --
--- AUTO_INCREMENT for dumped tables
+-- Brug ikke AUTO_INCREMENT for slettede tabeller
 --
 
 --
--- AUTO_INCREMENT for table `booking`
+-- Tilføj AUTO_INCREMENT i tabel `booking`
 --
 ALTER TABLE `booking`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=34;
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=84;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
