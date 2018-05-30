@@ -49,8 +49,8 @@
 
    <!-- Success besked -->
 	 <div class="procress__suceess">
-<p class="success">Din bestilling er nu registreret
-	<a href="index.php" class="notice">Tilbage</a>
+		 <p class="success">Din booking er nu registreret, oplys navn ved afhentning. Start din shopping nu på
+		 	<a href="https://www.fleggaard.dk" class="notice">Fleggaard.dk</a>
 </p>
 </div>
 </body>

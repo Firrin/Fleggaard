@@ -16,11 +16,12 @@
   <body>
 
 
-<header>
-  <img class="logo" src="images/logo.png" alt="logo">
-  <h1 class="header_h1"> Gratis* trailer Booking</h1>
-  <a href="admin.php">Admin login</a>
-</header>
+    <header>
+      <a href="https://www.fleggaard.dk/?locId=729"> <img class="logo" src="images/logo.png" alt="logo"></a>
+      <h1 class="header_h1">Gratis* trailer Booking</h1>
+      <a href="admin.php">Admin login</a>
+    </header>
+
 
 <?php
     // Get all types from the database
@@ -35,8 +36,8 @@
 
 <!-- Priser og størrelser start -->
 <h2 class="heading__priser">PRISER OG STØRRELSER</h2>
-<p class="asterisk">*Forudsætter køb hos en af Fleggaards grænsebutikker på over 500 kr </p>
-<div class="container__priser">
+<p class="heading__priser__asterisk">*Forudsætter køb hos en af Fleggaards grænsebutikker på over 500 kr </p>
+<div class="container__priser__grid">
 
 <p class="trailerinfo">Trailer type:</p>
 <p class="trailerinfo">Lastvægt</p>
@@ -74,7 +75,7 @@
   <form action="process.php" method="post">
 <h2 class="heading">1. Vælg et udlejningssted</h2>
 
-<select required class="Udlejningssted" name="Udlejningssted">
+<select required name="Udlejningssted">
   <option selected disabled value="">Vælg</option>
   <option value="Aalborg">Aalborg</option>
   <option value="Randers">Randers</option>
@@ -85,6 +86,7 @@
   <option value="Kolding">Kolding</option>
   <option value="Aabenraa">Aabenraa</option>
 </select>
+
 
 <div class="heading">
 <h3>Åbningstider</h3>
@@ -108,7 +110,7 @@
 
 
 <!-- Punkt 3. valg af trailertype start -->
-<div class="radiobuttons__select">
+<div class="trailertype__container">
 <h2 class="trailertype__h2">3. Vælg din trailertype:</h2>
 
 
@@ -122,20 +124,20 @@
 
 
 
-<div class="container__trailer">
+<div class="container__trailer__images">
 
      <img src="images/lilletrailer.png" alt="Lille trailertype">
     <img src="images/stortrailer.png" alt="Stor trailertype">
     <img src="images/lukkettrailer.png" alt="Lukket trailer">
   </div>
 
-<div class="trailervalg">
+<div class="trailervalg__names">
 
   <h3>Lille trailer </h3>
   <h3>Stor trailer</h3>
   <h3>Lukket trailer </h3>
 </div>
-<div class="trailer__info">
+<div class="trailervalg__description">
 
 
 <p>Lastvægt: 325 <br> Totalvægt: 750 <br> Mål: 258 x 128 x 125</p>
@@ -147,11 +149,11 @@
 
 <!--form og send knap start -->
     <main>
-        <h1 class="">Oplysninger</h1>
-        <h2 class="">4. Indtast personlige oplysninger</h2>
+        <h1>Oplysninger</h1>
+        <h2>4. Indtast personlige oplysninger</h2>
 
 
-      	<label  for="Navn">Navn:</label>
+      	<label for="Navn">Navn:</label>
       	<input required type="text" name="Navn" placeholder="eks. Peter Jensen">
 
       	<label for="Nummer">Telefon nummer:</label>
@@ -174,6 +176,7 @@
 
     </main>
 <!--form og send knap slut -->
+
 
 <script type="text/javascript" src="javascript/script.js">
 
