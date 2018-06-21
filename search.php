@@ -4,8 +4,8 @@
 <main>
 	<h2>Søg booking</h2>
 	<form action="search.php" method="POST">
-		<input type="text" name="search" placeholder="Search">
-		<button type="submit" name="submit-search">Search</button>
+		<input type="text" name="search" placeholder="Søg">
+		<button type="submit" name="submit-search">Søg</button>
 	</form>
 </main>
 <article class="admin_grid">
@@ -16,7 +16,7 @@
   <p>Adresse</p>
   <p>By</p>
   <p>Postnummer</p>
-  <p>Trailer</p>
+  <p>Trailer Type</p>
   <p>Udlejningssted</p>
   <p>Afhentnings dato</p>
 </article>
@@ -24,7 +24,7 @@
 <?php
   if (isset($_POST['submit-search'])) {
       $search = mysqli_real_escape_string($conn, $_POST['search']);
-      $sql = "SELECT * FROM booking WHERE Navn LIKE '%$search%' OR Nummer LIKE '%$search%' OR Adresse LIKE '%$search%' OR Mail LIKE '%$search%' ";
+      $sql = "SELECT * FROM booking WHERE Navn LIKE '%$search%' OR Nummer LIKE '$search' OR Adresse LIKE '%$search%' OR Mail LIKE '$search' OR Hjemby LIKE '%$search%' OR Dato LIKE '%$search%' ";
       $result = mysqli_query($conn, $sql);
       $queryResult = mysqli_num_rows($result);
 
@@ -44,7 +44,7 @@
 					</div>";
           }
       } else {
-        echo "There are no results matching your search!";
+        echo "Der var ingen kunde der matchede din søgning!";
       }
   }
 ?>
