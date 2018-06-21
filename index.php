@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Fleggaard Trailerudlejning</title>
+    <title>Fleggaard Trailerudlejning - Lej en trailer til dit næste besøg</title>
     <!-- favicon start -->
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
